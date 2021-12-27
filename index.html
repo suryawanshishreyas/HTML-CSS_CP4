@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/862245ed62.js" crossorigin="anonymous"></script>
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Tittle -->
+    <title>Flexor</title>
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex-sm flex-xlg">
+          <a href="index.html" class="brand">
+            <strong>Flexor</strong>
+          </a>
+          <label class="bars" for="toggle">
+            <i class="fas fa-bars"></i>
+          </label>
+          <input id="toggle" type="checkbox">
+          <nav class="nav">
+            <ul class="nav-menu flex-xlg">
+              <li class="nav-item text-md mb-1rem"><a href="index.html" class="main-nav-link">home</a></li>
+              <li class="nav-item text-md mb-1rem"><a href="#about" class="main-nav-link">about</a></li>
+              <li class="nav-item text-md mb-1rem"><a href="#services" class="main-nav-link">services</a></li>
+              <li class="nav-item text-md mb-1rem"><a href="#portfolio" class="main-nav-link">portfolio</a></li>
+              <li class="nav-item text-md mb-1rem"><a href="#team" class="main-nav-link">team</a></li>
+              <li class="nav-item text-md mb-1rem"><a href="#pricing" class="main-nav-link">pricing</a></li>
+              <li class="nav-item text-md mb-1rem"><a href="about.html" class="main-nav-link">blog</a></li>
+              <li class="nav-item text-md mb-1rem drop-down-li"><a href="#" class="main-nav-link dropdown">drop down <i class="fas fa-chevron-down"></i></a>
+                <nav class="dropdown-nav">
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-menu-item"><a href="#" class="main-nav-link">dropdown1</a></li>
+                    <li class="dropdown-menu-item"><a href="#" class="main-nav-link dropdown">dropdown2</a></li>
+                    <li class="dropdown-menu-item"><a href="#" class="main-nav-link">dropdown3</a></li>
+                  </ul>
+                </nav>
+              </li>
+              <li class="nav-item text-md mb-1rem"><a href="#contact" class="main-nav-link">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <!-- hero section -->
+        <section class="hero">
+            <div class="container">
+              <h1 class="text-md hero-heading"><strong>Welcome to Flexor</strong></h1>
+              <p class="text-sm hero-text">We are a team of talented designers making websites with bootstrap</p>
+              <div class="circle-button">
+                <span class="icon-circle">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </span>
+                <button class="hero-button">
+                  <a href="#" class="text-sm">Get Started</a> 
+                </button>
+              </div>
+            </div>
+        </section>
+        <!-- why us card section -->
+        <section class="why-us">
+          <div class="container flex-lg">
+            <article class="main-card wd-lg-35 why-us-card">
+              <div>
+                <h2 class="text-lg mb-1rem"><strong>Why Choose Flexor for your company website?</strong></h2>
+                <p class="mb-1rem text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem perspiciatis, impedit expedita fugiat voluptate recusandae et esse ratione, in soluta delectus explicabo dolor neque eveniet atque labore quo. Voluptatem.</p>
+                <button class="btn-curved"><a href="#">learn more <i class="fas fa-chevron-right"></i></a></button>
+              </div>
+            </article>
+            <article class="why-us-card wd-lg-20">
+              <div>
+                <i class="iconify mb-1rem why-card-icon" data-icon="bx:bx-receipt"></i>
+                <h5 class="mb-1rem text-md"><strong>Corporis voluptates sit</strong></h5>
+                <p class="text-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laboriosam voluptatum, sint illum repellat sapiente.</p>
+              </div>
+            </article>
+            <article class="why-us-card wd-lg-20">
+              <div>
+                <i class="iconify mb-1rem why-card-icon" data-icon="bx:bx-cube-alt"></i>
+                <h5 class="mb-1rem text-md"><strong>Corporis voluptates sit</strong></h5>
+                <p class="text-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laboriosam voluptatum, sint illum repellat sapiente.</p>
+              </div>
+            </article>
+            <article class="why-us-card wd-lg-20">
+              <div>
+                <i class="iconify mb-1rem why-card-icon" data-icon="bx:bx-images"></i>
+                <h5 class="mb-1rem text-md"><strong>Corporis voluptates sit</strong></h5>
+                <p class="text-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laboriosam voluptatum, sint illum repellat sapiente.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <!-- about section -->
+        <section class="about bg-light pd-top-3rem" id="about">
+          <div class="container-lg flex-xlg">
+            <article class="about-video-banner wd-lg-35">
+              <i class="fas fa-play text-xlg"></i>
+            </article>
+            <article class="about-article pd-top-3rem wd-lg-60">
+              <div class="container">
+                <article>
+                  <h6 class="text-sm mb-1rem semi-bold">About us</h6>
+                  <h3 class="text-md mb-1rem"><strong>Enim quis est volutptatibus aliquid consequatur fugiat</strong></h3>
+                  <p class="text-sm para-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, saepe consequatur tempore tempora eius expedita dignissimos fuga ipsam facere nam facilis laborum officia ipsa.</p>
+                </article>
+                <div class="pd-top-3rem">
+                  <article class="about-card mb-2rem  flex-sm">
+                    <a href="#" class="card-link wd-10"><i class="iconify card-icon" data-icon="bx:bx-fingerprint"></i></a>
+                    <div class="wd-85 wd-md-85">
+                      <p class="semi-bold">Lorem Ipsum</p>
+                      <p class="text-sm">Voluptatum delenti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                  </article>
+                  <article class="about-card mb-2rem flex-sm">
+                    <a href="#" class="card-link wd-10"><i class="iconify card-icon" data-icon="bx:bx-gift"></i></a>
+                    <div class="wd-85 wd-md-85">
+                      <p class="semi-bold">Lorem Ipsum</p>
+                      <p class="text-sm">Voluptatum delenti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                  </article>
+                  <article class="about-card flex-sm">
+                    <a href="#" class="card-link wd-10"><i class="iconify card-icon" data-icon="bx:bx-atom"></i></a>
+                    <div class="wd-85 wd-md-85">
+                      <p class="semi-bold">Lorem Ipsum</p>
+                      <p class="text-sm">Voluptatum delenti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>  
+                  </article>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+        <!-- works section -->
+        <section class="works pd-top-3rem">
+          <div class="container">
+            <div class="flex-sm flex-lg flex-xlg">
+              <div class="client-image-container-1 wd-md-24 wd-lg-15">
+                <img src="assets/media/clients/client-1.png" alt="myob" class="mob-image">
+              </div>
+              <div class="client-image-container-1 wd-md-24 wd-lg-15">
+                <img src="assets/media/clients/client-2.png" alt="" class="mob-image">
+              </div>
+              <div class="client-image-container md-client wd-md-24 wd-lg-15 desk-client">
+                <img src="assets/media/clients/client-3.png" alt="" class="desk-image">
+              </div>
+              <div class="client-image-container md-client wd-md-24 wd-lg-15 desk-client">
+                <img src="assets/media/clients/client-4.png" alt="" class="desk-image">
+              </div>
+              <div class="client-image-container wd-lg-15 desk-client">
+                <img src="assets/media/clients/client-5.png" alt="" class="desk-image">
+              </div>
+              <div class="client-image-container wd-lg-15 desk-client">
+                <img src="assets/media/clients/client-6.png" alt="" class="desk-image">
+              </div>
+            </div>
+            <div class="dot-container">
+              <span class="dot dot-mob active"></span>
+              <span class="dot dot-mob"></span>
+            </div>
+          </div>
+        </section>
+        <!-- services section -->
+        <section class="services bg-light pd-top-3rem" id="services">
+          <div class="container">
+            <h3 class="text-xlg mb-1rem semi-bold text-primary">Services</h3>
+            <p class="para-text text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor corporis repellendus nobis beatae repellat similique vel, unde expedita temporibus voluptates, eum, nemo odio molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <div class="service-card-container flex-lg pd-top-3rem">
+              <div class="service-card mb-3rem wd-md-48 wd-lg-30">
+                <a href="#" class="service-icon"><i class="iconify" data-icon="mi:computer"></i></a>
+                <h4 class="semi-bold mb-1rem text-mf">LOREM IPSUM</h4>
+                <p class="text-sm text-light para-text">Voluptam delenti atque corrupti quos dolores et quas molestias excepturi sint occenati cupiditate non provident</p>
+              </div>
+              <div class="service-card mb-3rem wd-md-48 wd-lg-30">
+                <a href="#" class="service-icon"><i class="iconify" data-icon="bx:bxs-calendar"></i></a>
+                <h4 class="semi-bold mb-1rem text-mf">LOREM IPSUM</h4>
+                <p class="text-sm text-light para-text">Voluptam delenti atque corrupti quos dolores et quas molestias excepturi sint occenati cupiditate non provident</p>
+              </div>
+              <div class="service-card mb-3rem wd-md-48 wd-lg-30">
+                <a href="#" class="service-icon"><i class="iconify" data-icon="fa-solid:globe-americas""></i></a>
+                <h4 class="semi-bold mb-1rem text-mf">LOREM IPSUM</h4>
+                <p class="text-sm text-light para-text">Voluptam delenti atque corrupti quos dolores et quas molestias excepturi sint occenati cupiditate non provident</p>
+              </div>
+              <div class="service-card mb-3rem wd-md-48 wd-lg-30">
+                <a href="#" class="service-icon"><i class="iconify" data-icon="maki:art-gallery"></i></a>
+                <h4 class="semi-bold mb-1rem text-mf">LOREM IPSUM</h4>
+                <p class="text-sm text-light para-text">Voluptam delenti atque corrupti quos dolores et quas molestias excepturi sint occenati cupiditate non provident</p>
+              </div>
+              <div class="service-card mb-3rem wd-md-48 wd-lg-30">
+                <a href="#" class="service-icon"><i class="iconify" data-icon="fluent:clipboard-task-list-rtl-20-filled""></i></a>
+                <h4 class="semi-bold mb-1rem text-mf">LOREM IPSUM</h4>
+                <p class="text-sm text-light para-text">Voluptam delenti atque corrupti quos dolores et quas molestias excepturi sint occenati cupiditate non provident</p>
+              </div>
+              <div class="service-card mb-3rem wd-md-48 wd-lg-30">
+                <a href="#" class="service-icon"><i class="iconify" data-icon="bx:bx-task"></i></a>
+                <h4 class="semi-bold mb-1rem text-mf">LOREM IPSUM</h4>
+                <p class="text-sm text-light para-text">Voluptam delenti atque corrupti quos dolores et quas molestias excepturi sint occenati cupiditate non provident</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- mission section -->
+        <section class="mission pd-top-3rem">
+          <div class="container figure-container flex-lg">
+            <figure class="mission-figure mb-2rem wd-md-48 wd-lg-48">
+              <img src="assets/media/values-1.jpg" alt="values" class="mission-image">
+              <figcaption class="figcaption">
+                <h4 class="semi-bold fig-heading mb-1rem">Our Plan</h4>
+                <p class="text-sm mb-1rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
+                <a href="#" class="mission-link text-sm semi-bold text-light"><span><i class="fas fa-arrow-right"></i></span> Read More</a>
+              </figcaption>
+            </figure>
+            <figure class="mission-figure mb-2rem wd-md-48 wd-lg-48">
+              <img src="assets/media/values-2.jpg" alt="values" class="mission-image">
+              <figcaption class="figcaption">
+                <h4 class="semi-bold fig-heading mb-1rem">Our Plan</h4>
+                <p class="text-sm mb-1rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
+                <a href="#" class="mission-link text-sm semi-bold text-light"><span><i class="fas fa-arrow-right"></i></span> Read More</a>
+              </figcaption>
+            </figure>
+            <figure class="mission-figure mb-2rem wd-md-48 wd-lg-48">
+              <img src="assets/media/values-3.jpg" alt="values" class="mission-image">
+              <figcaption class="figcaption">
+                <h4 class="semi-bold fig-heading mb-1rem">Our Plan</h4>
+                <p class="text-sm mb-1rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
+                <a href="#" class="mission-link text-sm semi-bold text-light"><span><i class="fas fa-arrow-right"></i></span> Read More</a>
+              </figcaption>
+            </figure>
+            <figure class="mission-figure mb-2rem wd-md-48 wd-lg-48">
+              <img src="assets/media/values-4.jpg" alt="values" class="mission-image">
+              <figcaption class="figcaption">
+                <h4 class="semi-bold fig-heading mb-1rem">Our Plan</h4>
+                <p class="text-sm mb-1rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
+                <a href="#" class="mission-link text-sm semi-bold text-light"><span><i class="fas fa-arrow-right"></i></span> Read More</a>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <!-- testimonial section -->
+        <section class="testimonial">
+          <div class="container">
+            <article class="testimonial-article">
+              <figure class="testimonial-figure mb-1rem">
+                <img src="assets/media/testimonials/testimonials-3.jpg" alt="testimonial image" class="testimonial-image">
+                <figcaption>
+                  <h4 class="text-md"><strong>Jena Karlis</strong></h4>
+                  <p class="text-sm semi-bold">Store Owner</p>
+                </figcaption>
+              </figure>
+              <q class="quote semi-bold text-sm"><span><i class="fas fa-quote-left"></i></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptas perspiciatis voluptate perferendis quas doloremque ut ab molestias libero expedita! <span><i class="fas fa-quote-right"></i></span></q>
+            </article>
+            <div class="dot-container">
+              <span class="dot dot-mob"></span>
+              <span class="dot dot-mob"></span>
+              <span class="dot dot-mob active"></span>
+              <span class="dot dot-mob"></span>
+              <span class="dot dot-mob"></span>
+            </div>
+          </div>
+        </section>
+        <!-- portfolio section -->
+        <section class="portfolio pd-top-3rem" id="portfolio">
+          <div class="container">
+            <h3 class="text-xlg mb-1rem semi-bold text-primary">Portfolio</h3>
+            <p class="para-text text-light mb-2rem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor corporis repellendus nobis beatae repellat similique vel, unde expedita temporibus voluptates, eum, nemo odio molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <nav class="portfolio-menu">
+              <span class="portfolio-active portfolio-menu-item">all</span>
+              <span class="portfolio-menu-item">app</span>
+              <span class="portfolio-menu-item">card</span>
+              <span class="portfolio-menu-item">web</span>
+            </nav>
+            <div class="portfolio-image-container flex-lg flex-xlg pd-top-3rem">
+              <figure class="portfolio-figure mb-1rem wd-md-48 wd-lg-32">
+                <img src="assets/media/portfolio/portfolio-1.jpg" alt="portfolio-image" class="portfolio-image">
+                <figcaption class="portfolio-caption flex-sm">
+                  <div class="top-caption">
+                    <h5 class="semi-bold">Web 3</h5>
+                    <p class="text-primary">Web</p>
+                  </div>
+                  <div class="bottom-caption flex-sm">
+                    <a href="#" class="text-primary"><i class="fas fa-plus"></i></a>
+                    <a href="#" class="text-primary"><i class="fas fa-link"></i></a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="portfolio-figure mb-1rem wd-md-48 wd-lg-32">
+                <img src="assets/media/portfolio/portfolio-2.jpg" alt="portfolio-image" class="portfolio-image">
+                <figcaption class="portfolio-caption flex-sm">
+                  <div class="top-caption">
+                    <h5 class="semi-bold">Web 3</h5>
+                    <p class="text-primary">Web</p>
+                  </div>
+                  <div class="bottom-caption flex-sm">
+                    <a href="#" class="text-primary"><i class="fas fa-plus"></i></a>
+                    <a href="#" class="text-primary"><i class="fas fa-link"></i></a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="portfolio-figure mb-1rem wd-md-48 wd-lg-32">
+                <img src="assets/media/portfolio/portfolio-3.jpg" alt="portfolio-image" class="portfolio-image">
+                <figcaption class="portfolio-caption flex-sm">
+                  <div class="top-caption">
+                    <h5 class="semi-bold">Web 3</h5>
+                    <p class="text-primary">Web</p>
+                  </div>
+                  <div class="bottom-caption flex-sm">
+                    <a href="#" class="text-primary"><i class="fas fa-plus"></i></a>
+                    <a href="#" class="text-primary"><i class="fas fa-link"></i></a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="portfolio-figure mb-1rem wd-md-48 wd-lg-32">
+                <img src="assets/media/portfolio/portfolio-4.jpg" alt="portfolio-image" class="portfolio-image">
+                <figcaption class="portfolio-caption flex-sm">
+                  <div class="top-caption">
+                    <h5 class="semi-bold">Web 3</h5>
+                    <p class="text-primary">Web</p>
+                  </div>
+                  <div class="bottom-caption flex-sm">
+                    <a href="#" class="text-primary"><i class="fas fa-plus"></i></a>
+                    <a href="#" class="text-primary"><i class="fas fa-link"></i></a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="portfolio-figure mb-1rem wd-md-48 wd-lg-32">
+                <img src="assets/media/portfolio/portfolio-5.jpg" alt="portfolio-image" class="portfolio-image">
+                <figcaption class="portfolio-caption flex-sm">
+                  <div class="top-caption">
+                    <h5 class="semi-bold">Web 3</h5>
+                    <p class="text-primary">Web</p>
+                  </div>
+                  <div class="bottom-caption flex-sm">
+                    <a href="#" class="text-primary"><i class="fas fa-plus"></i></a>
+                    <a href="#" class="text-primary"><i class="fas fa-link"></i></a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="portfolio-figure mb-1rem wd-md-48 wd-lg-32">
+                <img src="assets/media/portfolio/portfolio-6.jpg" alt="portfolio-image" class="portfolio-image">
+                <figcaption class="portfolio-caption flex-sm">
+                  <div class="top-caption">
+                    <h5 class="semi-bold">Web 3</h5>
+                    <p class="text-primary">Web</p>
+                  </div>
+                  <div class="bottom-caption flex-sm">
+                    <a href="#" class="text-primary"><i class="fas fa-plus"></i></a>
+                    <a href="#" class="text-primary"><i class="fas fa-link"></i></a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="portfolio-figure mb-1rem wd-md-48 wd-lg-32">
+                <img src="assets/media/portfolio/portfolio-7.jpg" alt="portfolio-image" class="portfolio-image">
+                <figcaption class="portfolio-caption flex-sm">
+                  <div class="top-caption">
+                    <h5 class="semi-bold">Web 3</h5>
+                    <p class="text-primary">Web</p>
+                  </div>
+                  <div class="bottom-caption flex-sm">
+                    <a href="#" class="text-primary"><i class="fas fa-plus"></i></a>
+                    <a href="#" class="text-primary"><i class="fas fa-link"></i></a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="portfolio-figure mb-1rem wd-md-48 wd-lg-32">
+                <img src="assets/media/portfolio/portfolio-8.jpg" alt="portfolio-image" class="portfolio-image">
+                <figcaption class="portfolio-caption flex-sm">
+                  <div class="top-caption">
+                    <h5 class="semi-bold">Web 3</h5>
+                    <p class="text-primary">Web</p>
+                  </div>
+                  <div class="bottom-caption flex-sm">
+                    <a href="#" class="text-primary"><i class="fas fa-plus"></i></a>
+                    <a href="#" class="text-primary"><i class="fas fa-link"></i></a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="portfolio-figure mb-1rem wd-md-48 wd-lg-32">
+                <img src="assets/media/portfolio/portfolio-9.jpg" alt="portfolio-image" class="portfolio-image">
+                <figcaption class="portfolio-caption flex-sm">
+                  <div class="top-caption">
+                    <h5 class="semi-bold">Web 3</h5>
+                    <p class="text-primary">Web</p>
+                  </div>
+                  <div class="bottom-caption flex-sm">
+                    <a href="#" class="text-primary"><i class="fas fa-plus"></i></a>
+                    <a href="#" class="text-primary"><i class="fas fa-link"></i></a>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <!-- team section -->
+        <section class="team bg-light pd-top-3rem" id="team">
+          <div class="container">
+            <h3 class="text-xlg mb-1rem semi-bold text-primary">Team</h3>
+            <p class="para-text text-light mb-2rem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor corporis repellendus nobis beatae repellat similique vel, unde expedita temporibus voluptates, eum, nemo odio molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <article class="team-card-container flex-xlg flex-lg">
+              <figure class="team-card mb-1rem wd-md-48 wd-lg-24">
+                <img src="assets/media/team/team-1.jpg" alt="team" class="team-image">
+                <figcaption class="team-card-info">
+                  <h5 class="semi-bold text-primary">Walter White</h5>
+                  <p class="text-light text-sm">Chief Executive Officer</p>
+                </figcaption>
+                <div class="team-social">
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </figure>
+              <figure class="team-card mb-1rem wd-md-48 wd-lg-24">
+                <img src="assets/media/team/team-2.jpg" alt="team" class="team-image">
+                <figcaption class="team-card-info">
+                  <h5 class="semi-bold text-primary">Sarah Jhonson</h5>
+                  <p class="text-light text-sm">Product Manager</p>
+                </figcaption>
+                <div class="team-social">
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </figure>
+              <figure class="team-card mb-1rem wd-md-48 wd-lg-24">
+                <img src="assets/media/team/team-3.jpg" alt="team" class="team-image">
+                <figcaption class="team-card-info">
+                  <h5 class="semi-bold text-primary">William Anderson</h5>
+                  <p class="text-light text-sm">CTO</p>
+                </figcaption>
+                <div class="team-social">
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </figure>
+              <figure class="team-card mb-1rem wd-md-48 wd-lg-24">
+                <img src="assets/media/team/team-4.jpg" alt="team" class="team-image">
+                <figcaption class="team-card-info">
+                  <h5 class="semi-bold text-primary">Amanda Jepson</h5>
+                  <p class="text-light text-sm">Accountant</p>
+                </figcaption>
+                <div class="team-social">
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="text-primary team-social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </figure>
+            </article>
+          </div>
+        </section>
+        <!-- pricing section -->
+        <section class="pricing pd-top-3rem" id="pricing">
+          <div class="container">
+            <h3 class="text-xlg mb-1rem semi-bold text-primary">Team</h3>
+            <p class="para-text text-light mb-2rem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor corporis repellendus nobis beatae repellat similique vel, unde expedita temporibus voluptates, eum, nemo odio molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <div class="price-card-container flex-lg">
+              <article class="price-card mb-1rem wd-md-48 wd-lg-24">
+                <header class="bg-grey price-header">
+                  <p class="semi-bold text-primary">Free</p>
+                </header>
+                <div class="price-list">
+                  <p class="text-light mb-1rem"><span class="price-tag text-xlg semi-bold"><span class="text-sm dollar">$</span>0</span>/month</p>
+                  <p class="mb-1rem text-sm">Aida dere</p>
+                  <p class="mb-1rem text-sm">Nec feugiat nisl</p>
+                  <p class="mb-1rem text-sm">Nulla at volutpat dola</p>
+                  <p class="line-through text-light text-sm mb-1rem">Phareta massa</p>
+                  <p class="line-through text-light text-sm mb-1rem">Massa ultricies mi</p>
+                </div>
+                <footer class="price-footer bg-grey">
+                  <button class="price-btn"><a href="#">Buy Now</a></button>
+                </footer>
+              </article>
+              <article class="price-card wd-md-48 wd-lg-24 active-price mb-1rem">
+                <header class="bg-grey price-header">
+                  <p class="semi-bold">Business</p>
+                </header>
+                <div class="price-list">
+                  <p class="text-light mb-1rem"><span class="price-tag text-xlg semi-bold"><span class="text-sm dollar">$</span>19</span>/month</p>
+                  <p class="mb-1rem text-sm">Aida dere</p>
+                  <p class="mb-1rem text-sm">Nec feugiat nisl</p>
+                  <p class="mb-1rem text-sm">Nulla at volutpat dola</p>
+                  <p class="line-through text-light text-sm mb-1rem">Phareta massa</p>
+                  <p class="line-through text-light text-sm mb-1rem">Massa ultricies mi</p>
+                </div>
+                <footer class="price-footer bg-grey">
+                  <button class="price-btn"><a href="#">Buy Now</a></button>
+                </footer>
+              </article>
+              <article class="price-card wd-md-48 wd-lg-24 mb-1rem">
+                <header class="bg-grey price-header">
+                  <p class="semi-bold text-primary">Developer</p>
+                </header>
+                <div class="price-list">
+                  <p class="text-light mb-1rem"><span class="price-tag text-xlg semi-bold"><span class="text-sm dollar">$</span>29</span>/month</p>
+                  <p class="mb-1rem text-sm">Aida dere</p>
+                  <p class="mb-1rem text-sm">Nec feugiat nisl</p>
+                  <p class="mb-1rem text-sm">Nulla at volutpat dola</p>
+                  <p class="line-through text-light text-sm mb-1rem">Phareta massa</p>
+                  <p class="line-through text-light text-sm mb-1rem">Massa ultricies mi</p>
+                </div>
+                <footer class="price-footer bg-grey">
+                  <button class="price-btn"><a href="#">Buy Now</a></button>
+                </footer>
+              </article>
+              <article class="price-card wd-md-48 wd-lg-24 mb-1rem">
+                <span class="advance">Advanced</span>
+                <header class="bg-grey price-header">
+                  <p class="semi-bold text-primary">Ultimate</p>
+                </header>
+                <div class="price-list">
+                  <p class="text-light mb-1rem"><span class="price-tag text-xlg semi-bold"><span class="text-sm dollar">$</span>49</span>/month</p>
+                  <p class="mb-1rem text-sm">Aida dere</p>
+                  <p class="mb-1rem text-sm">Nec feugiat nisl</p>
+                  <p class="mb-1rem text-sm">Nulla at volutpat dola</p>
+                  <p class="line-through text-light text-sm mb-1rem">Phareta massa</p>
+                  <p class="line-through text-light text-sm mb-1rem">Massa ultricies mi</p>
+                </div>
+                <footer class="price-footer bg-grey">
+                  <button class="price-btn"><a href="#">Buy Now</a></button>
+                </footer>
+              </article>
+            </div>
+          </div>
+        </section>
+        <!-- Faq section -->
+        <section class="faqs bg-light pd-top-3rem">
+          <div class="container">
+            <h3 class="text-xlg mb-1rem semi-bold text-primary">F.A.Q</h3>
+            <p class="para-text text-light mb-2rem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor corporis repellendus nobis beatae repellat similique vel, unde expedita temporibus voluptates, eum, nemo odio molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <div class="faqs-container container-md-faq">
+              <article class="faq faq-active mb-1rem">
+                <div>
+                  <div class="faq-item flex-sm mb-1rem">
+                    <i class="far fa-question-circle wd-10"></i>
+                    <p class="text-sm semi-bold wd-85">Non consectetur a erat nam at lectus urna duis?</p>
+                    <i class="fas fa-chevron-up wd-10"></i>
+                  </div>
+                  <p class="text-sm text-light pd-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum qui velit asperiores sapiente hic facilis, eveniet ut nemo eius non, adipisci itaque provident error.</p>
+                </div>
+              </article>
+              <article class="faq mb-1rem">
+                <div>
+                  <div class="faq-item flex-sm mb-1rem">
+                    <i class="far fa-question-circle wd-10"></i>
+                    <p class="text-sm semi-bold wd-85">Non consectetur a erat nam at lectus urna duis?</p>
+                    <i class="fas fa-chevron-down wd-10"></i>
+                  </div>
+                </div>
+              </article>
+              <article class="faq mb-1rem">
+                <div>
+                  <div class="faq-item flex-sm mb-1rem">
+                    <i class="far fa-question-circle wd-10"></i>
+                    <p class="text-sm semi-bold wd-85">Non consectetur a erat nam at lectus urna duis?</p>
+                    <i class="fas fa-chevron-down wd-10"></i>
+                  </div>
+                </div>
+              </article>
+              <article class="faq mb-1rem">
+                <div>
+                  <div class="faq-item flex-sm mb-1rem">
+                    <i class="far fa-question-circle wd-10"></i>
+                    <p class="text-sm semi-bold wd-85">Non consectetur a erat nam at lectus urna duis?</p>
+                    <i class="fas fa-chevron-down wd-10"></i>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <!-- Contact section -->
+        <section class="contact pd-top-3rem" id="contact">
+          <div class="container">
+            <h3 class="text-xlg mb-1rem semi-bold text-primary">Contact</h3>
+            <p class="para-text text-light mb-2rem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor corporis repellendus nobis beatae repellat similique vel, unde expedita temporibus voluptates, eum, nemo odio molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>  
+            <div class="contact-card-container flex-xlg container-lg-contact">
+              <article class="contact-card  wd-lg-32 mb-2rem flex-sm">
+                <i class="fas fa-map-marker-alt wd-10 wd-lg-30 contact-icon"></i>
+                <address class="address wd-86 wd-lg-60">
+                  <h4 class="text-md text-primary semi-bold">Our Address</h4>
+                  <p class="text-sm">A108 Adam Street, New York, NY 535022</p>
+                </address>
+              </article>
+              <article class="contact-card  wd-lg-32 mb-2rem flex-sm">
+                <i class="fas fa-envelope wd-10 wd-lg-30 contact-icon"></i>
+                <address class="address wd-86 wd-lg-60">
+                  <h4 class="text-md text-primary semi-bold">Email Us</h4>
+                  <p class="text-sm">info@example.com</p>
+                  <p class="text-sm">contact@example.com</p>
+                </address>
+              </article>
+              <article class="contact-card  wd-lg-32 mb-2rem flex-sm">
+                <i class="fas fa-phone wd-10 wd-lg-30 contact-icon"></i>
+                <address class="address wd-86 wd-lg-60">
+                  <h4 class="text-md text-primary semi-bold">Call Us</h4>
+                  <p class="text-sm">+1 5589 55488 55</p>
+                  <p class="text-sm">+1 6678254445 41</p>
+                </address>
+              </article>
+            </div>
+            <form action="login" method="post" class="contact-form container-lg-contact">
+              <fieldset class="fieldset flex-lg">
+                <input type="text" name="name" class="form-control wd-md-48 mb-1rem" placeholder="Your Name">
+                <input type="email" name="email" class="form-control wd-md-48 mb-1rem" placeholder="Your Email">
+                <input type="text" name="subject" class="form-control wd-md-100 mb-1rem" placeholder="Subject">
+                <textarea name="message" id="message" class="form-control wd-md-100 mb-1rem" cols="30" rows="10" placeholder="Message"></textarea>
+              </fieldset>
+              <button class="btn-form"><a href="#" class="semi-bold">Send Message</a></button>
+            </form>
+          </div> 
+        </section>
+      </main>
+      <!-- footer section -->
+      <footer class="footer bg-light pd-top-3rem">
+        <div class="container flex-lg mb-2rem">
+          <address class="footer-item wd-md-48 wd-lg-20 mb-2rem">
+            <h4 class="text-xlg semi-bold mb-1rem">Flexor</h4>
+            <p class="text-sm text-light mb-1rem">A108 Adam Street <br> New York, NY 535022 <br> United States</p>
+            <p class="text-light"><strong class="semi-bold text-primary">Phone:</strong> +1 5589 55488 55</p>
+            <p class="text-light"><strong class="semi-bold text-primary">Email:</strong> info@example.com</p>
+          </address>
+          <nav class="footer-item wd-md-48 wd-lg-15 mb-2rem">
+            <h5 class="semi-bold text-md mb-1rem">Useful Links</h5>
+            <ul class="useful-menu">
+              <li class="useful-item semi-bold mb-1rem"><a href="#" class="item-link text-light"><i class="fas fa-chevron-right"></i> Home</a></li>
+              <li class="useful-item semi-bold mb-1rem"><a href="#" class="item-link text-light"><i class="fas fa-chevron-right"></i> About us</a></li>
+              <li class="useful-item semi-bold mb-1rem"><a href="#" class="item-link text-light"><i class="fas fa-chevron-right"></i> Services</a></li>
+              <li class="useful-item semi-bold mb-1rem"><a href="#" class="item-link text-light"><i class="fas fa-chevron-right"></i> Terms of service</a></li>
+              <li class="useful-item semi-bold mb-1rem"><a href="#" class="item-link text-light"><i class="fas fa-chevron-right"></i> Privacy policy</a></li>
+            </ul>
+          </nav>
+          <nav class="footer-item wd-md-48 wd-lg-15 mb-2rem">
+            <h5 class="semi-bold text-md mb-1rem">Our Services</h5>
+            <ul class="useful-menu">
+              <li class="useful-item semi-bold mb-1rem"><a href="#" class="item-link text-light"><i class="fas fa-chevron-right"></i> Home</a></li>
+              <li class="useful-item semi-bold mb-1rem"><a href="#" class="item-link text-light"><i class="fas fa-chevron-right"></i> About us</a></li>
+              <li class="useful-item semi-bold mb-1rem"><a href="#" class="item-link text-light"><i class="fas fa-chevron-right"></i> Services</a></li>
+              <li class="useful-item semi-bold mb-1rem"><a href="#" class="item-link text-light"><i class="fas fa-chevron-right"></i> Terms of service</a></li>
+              <li class="useful-item semi-bold mb-1rem"><a href="#" class="item-link text-light"><i class="fas fa-chevron-right"></i> Privacy policy</a></li>
+            </ul>
+          </nav>
+          <div class="footer-item wd-md-48 wd-lg-32">
+            <h5 class="semi-bold text-md mb-1rem">Join Our Newsletter</h5>
+            <p class="text-sm semi-bold text-light mb-1rem">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <div class="subscribe">
+              <input type="text" name="text" class="newsletter-input">
+              <button class="btn-news"><a href="#">Subscribe</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container flex-xlg">
+            <small class="text-sm text-light mb-2rem">&copy Copyright <strong>Flexor</strong>. All Rights Reserved <br> Designed by <span class="danger">BootstrapMade</span></small>
+            <nav class="social-footer-nav flex-sm">
+              <span><i class="fab fa-twitter text-sm social-icon"></i></span>
+              <span><i class="fab fa-facebook-f text-sm social-icon"></i></span>
+              <span><i class="fab fa-instagram text-sm social-icon"></i></span>
+              <span><i class="fab fa-skype text-sm social-icon"></i></span>
+              <span><i class="fab fa-linkedin-in text-sm social-icon"></i></span>
+            </nav>
+          </div>
+        </div>
+      </footer>
+      <!-- <a href="#" class="back-top"><i class="fas fa-arrow-up"></i></a> -->
+      
+</body>
+</html>
